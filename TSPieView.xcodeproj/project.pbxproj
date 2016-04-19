@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDEA7A8B1CC1E1A100557589 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA7A8A1CC1E1A100557589 /* main.m */; };
+		DDEA7A8E1CC1E1A100557589 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA7A8D1CC1E1A100557589 /* AppDelegate.m */; };
+		DDEA7A911CC1E1A100557589 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA7A901CC1E1A100557589 /* ViewController.m */; };
+		DDEA7A941CC1E1A100557589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEA7A921CC1E1A100557589 /* Main.storyboard */; };
+		DDEA7A961CC1E1A100557589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEA7A951CC1E1A100557589 /* Assets.xcassets */; };
+		DDEA7A991CC1E1A100557589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEA7A971CC1E1A100557589 /* LaunchScreen.storyboard */; };
+		DDEA7AA41CC1E1A100557589 /* TSPieViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA7AA31CC1E1A100557589 /* TSPieViewTests.m */; };
+		DDEA7AAF1CC1E1A100557589 /* TSPieViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA7AAE1CC1E1A100557589 /* TSPieViewUITests.m */; };
+		DDEA7ABE1CC1E23600557589 /* PieView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA7ABD1CC1E23600557589 /* PieView.m */; };
+		DDEA7B081CC4D4B300557589 /* HistogramView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA7B071CC4D4B300557589 /* HistogramView.m */; };
+		DDEA7B0B1CC5C37C00557589 /* TextHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA7B0A1CC5C37C00557589 /* TextHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDEA7AA01CC1E1A100557589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEA7A7E1CC1E1A100557589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDEA7A851CC1E1A100557589;
+			remoteInfo = TSPieView;
+		};
+		DDEA7AAB1CC1E1A100557589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEA7A7E1CC1E1A100557589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDEA7A851CC1E1A100557589;
+			remoteInfo = TSPieView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDEA7A861CC1E1A100557589 /* TSPieView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSPieView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEA7A8A1CC1E1A100557589 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDEA7A8C1CC1E1A100557589 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDEA7A8D1CC1E1A100557589 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDEA7A8F1CC1E1A100557589 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDEA7A901CC1E1A100557589 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDEA7A931CC1E1A100557589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDEA7A951CC1E1A100557589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDEA7A981CC1E1A100557589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDEA7A9A1CC1E1A100557589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEA7A9F1CC1E1A100557589 /* TSPieViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSPieViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEA7AA31CC1E1A100557589 /* TSPieViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPieViewTests.m; sourceTree = "<group>"; };
+		DDEA7AA51CC1E1A100557589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEA7AAA1CC1E1A100557589 /* TSPieViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSPieViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEA7AAE1CC1E1A100557589 /* TSPieViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPieViewUITests.m; sourceTree = "<group>"; };
+		DDEA7AB01CC1E1A100557589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEA7ABC1CC1E23600557589 /* PieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieView.h; sourceTree = "<group>"; };
+		DDEA7ABD1CC1E23600557589 /* PieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieView.m; sourceTree = "<group>"; };
+		DDEA7B061CC4D4B300557589 /* HistogramView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistogramView.h; sourceTree = "<group>"; };
+		DDEA7B071CC4D4B300557589 /* HistogramView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistogramView.m; sourceTree = "<group>"; };
+		DDEA7B091CC5C37C00557589 /* TextHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextHandler.h; sourceTree = "<group>"; };
+		DDEA7B0A1CC5C37C00557589 /* TextHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDEA7A831CC1E1A100557589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEA7A9C1CC1E1A100557589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEA7AA71CC1E1A100557589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDEA7A7D1CC1E1A100557589 = {
+			isa = PBXGroup;
+			children = (
+				DDEA7A881CC1E1A100557589 /* TSPieView */,
+				DDEA7AA21CC1E1A100557589 /* TSPieViewTests */,
+				DDEA7AAD1CC1E1A100557589 /* TSPieViewUITests */,
+				DDEA7A871CC1E1A100557589 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDEA7A871CC1E1A100557589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDEA7A861CC1E1A100557589 /* TSPieView.app */,
+				DDEA7A9F1CC1E1A100557589 /* TSPieViewTests.xctest */,
+				DDEA7AAA1CC1E1A100557589 /* TSPieViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDEA7A881CC1E1A100557589 /* TSPieView */ = {
+			isa = PBXGroup;
+			children = (
+				DDEA7A8C1CC1E1A100557589 /* AppDelegate.h */,
+				DDEA7A8D1CC1E1A100557589 /* AppDelegate.m */,
+				DDEA7A8F1CC1E1A100557589 /* ViewController.h */,
+				DDEA7A901CC1E1A100557589 /* ViewController.m */,
+				DDEA7A921CC1E1A100557589 /* Main.storyboard */,
+				DDEA7ABC1CC1E23600557589 /* PieView.h */,
+				DDEA7ABD1CC1E23600557589 /* PieView.m */,
+				DDEA7B061CC4D4B300557589 /* HistogramView.h */,
+				DDEA7B071CC4D4B300557589 /* HistogramView.m */,
+				DDEA7A951CC1E1A100557589 /* Assets.xcassets */,
+				DDEA7A971CC1E1A100557589 /* LaunchScreen.storyboard */,
+				DDEA7A9A1CC1E1A100557589 /* Info.plist */,
+				DDEA7A891CC1E1A100557589 /* Supporting Files */,
+				DDEA7B091CC5C37C00557589 /* TextHandler.h */,
+				DDEA7B0A1CC5C37C00557589 /* TextHandler.m */,
+			);
+			path = TSPieView;
+			sourceTree = "<group>";
+		};
+		DDEA7A891CC1E1A100557589 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDEA7A8A1CC1E1A100557589 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDEA7AA21CC1E1A100557589 /* TSPieViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDEA7AA31CC1E1A100557589 /* TSPieViewTests.m */,
+				DDEA7AA51CC1E1A100557589 /* Info.plist */,
+			);
+			path = TSPieViewTests;
+			sourceTree = "<group>";
+		};
+		DDEA7AAD1CC1E1A100557589 /* TSPieViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDEA7AAE1CC1E1A100557589 /* TSPieViewUITests.m */,
+				DDEA7AB01CC1E1A100557589 /* Info.plist */,
+			);
+			path = TSPieViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDEA7A851CC1E1A100557589 /* TSPieView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEA7AB31CC1E1A100557589 /* Build configuration list for PBXNativeTarget "TSPieView" */;
+			buildPhases = (
+				DDEA7A821CC1E1A100557589 /* Sources */,
+				DDEA7A831CC1E1A100557589 /* Frameworks */,
+				DDEA7A841CC1E1A100557589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSPieView;
+			productName = TSPieView;
+			productReference = DDEA7A861CC1E1A100557589 /* TSPieView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDEA7A9E1CC1E1A100557589 /* TSPieViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEA7AB61CC1E1A100557589 /* Build configuration list for PBXNativeTarget "TSPieViewTests" */;
+			buildPhases = (
+				DDEA7A9B1CC1E1A100557589 /* Sources */,
+				DDEA7A9C1CC1E1A100557589 /* Frameworks */,
+				DDEA7A9D1CC1E1A100557589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDEA7AA11CC1E1A100557589 /* PBXTargetDependency */,
+			);
+			name = TSPieViewTests;
+			productName = TSPieViewTests;
+			productReference = DDEA7A9F1CC1E1A100557589 /* TSPieViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDEA7AA91CC1E1A100557589 /* TSPieViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEA7AB91CC1E1A100557589 /* Build configuration list for PBXNativeTarget "TSPieViewUITests" */;
+			buildPhases = (
+				DDEA7AA61CC1E1A100557589 /* Sources */,
+				DDEA7AA71CC1E1A100557589 /* Frameworks */,
+				DDEA7AA81CC1E1A100557589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDEA7AAC1CC1E1A100557589 /* PBXTargetDependency */,
+			);
+			name = TSPieViewUITests;
+			productName = TSPieViewUITests;
+			productReference = DDEA7AAA1CC1E1A100557589 /* TSPieViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDEA7A7E1CC1E1A100557589 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tunsuy;
+				TargetAttributes = {
+					DDEA7A851CC1E1A100557589 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DDEA7A9E1CC1E1A100557589 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DDEA7A851CC1E1A100557589;
+					};
+					DDEA7AA91CC1E1A100557589 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DDEA7A851CC1E1A100557589;
+					};
+				};
+			};
+			buildConfigurationList = DDEA7A811CC1E1A100557589 /* Build configuration list for PBXProject "TSPieView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDEA7A7D1CC1E1A100557589;
+			productRefGroup = DDEA7A871CC1E1A100557589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDEA7A851CC1E1A100557589 /* TSPieView */,
+				DDEA7A9E1CC1E1A100557589 /* TSPieViewTests */,
+				DDEA7AA91CC1E1A100557589 /* TSPieViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDEA7A841CC1E1A100557589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEA7A991CC1E1A100557589 /* LaunchScreen.storyboard in Resources */,
+				DDEA7A961CC1E1A100557589 /* Assets.xcassets in Resources */,
+				DDEA7A941CC1E1A100557589 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEA7A9D1CC1E1A100557589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEA7AA81CC1E1A100557589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDEA7A821CC1E1A100557589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEA7A911CC1E1A100557589 /* ViewController.m in Sources */,
+				DDEA7ABE1CC1E23600557589 /* PieView.m in Sources */,
+				DDEA7A8E1CC1E1A100557589 /* AppDelegate.m in Sources */,
+				DDEA7B0B1CC5C37C00557589 /* TextHandler.m in Sources */,
+				DDEA7B081CC4D4B300557589 /* HistogramView.m in Sources */,
+				DDEA7A8B1CC1E1A100557589 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEA7A9B1CC1E1A100557589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEA7AA41CC1E1A100557589 /* TSPieViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEA7AA61CC1E1A100557589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEA7AAF1CC1E1A100557589 /* TSPieViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDEA7AA11CC1E1A100557589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDEA7A851CC1E1A100557589 /* TSPieView */;
+			targetProxy = DDEA7AA01CC1E1A100557589 /* PBXContainerItemProxy */;
+		};
+		DDEA7AAC1CC1E1A100557589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDEA7A851CC1E1A100557589 /* TSPieView */;
+			targetProxy = DDEA7AAB1CC1E1A100557589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDEA7A921CC1E1A100557589 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDEA7A931CC1E1A100557589 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDEA7A971CC1E1A100557589 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDEA7A981CC1E1A100557589 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDEA7AB11CC1E1A100557589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDEA7AB21CC1E1A100557589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDEA7AB41CC1E1A100557589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSPieView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.pocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDEA7AB51CC1E1A100557589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSPieView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.pocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDEA7AB71CC1E1A100557589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSPieViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSPieViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSPieView.app/TSPieView";
+			};
+			name = Debug;
+		};
+		DDEA7AB81CC1E1A100557589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSPieViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSPieViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSPieView.app/TSPieView";
+			};
+			name = Release;
+		};
+		DDEA7ABA1CC1E1A100557589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSPieViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSPieViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSPieView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDEA7ABB1CC1E1A100557589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSPieViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSPieViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSPieView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDEA7A811CC1E1A100557589 /* Build configuration list for PBXProject "TSPieView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEA7AB11CC1E1A100557589 /* Debug */,
+				DDEA7AB21CC1E1A100557589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDEA7AB31CC1E1A100557589 /* Build configuration list for PBXNativeTarget "TSPieView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEA7AB41CC1E1A100557589 /* Debug */,
+				DDEA7AB51CC1E1A100557589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDEA7AB61CC1E1A100557589 /* Build configuration list for PBXNativeTarget "TSPieViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEA7AB71CC1E1A100557589 /* Debug */,
+				DDEA7AB81CC1E1A100557589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDEA7AB91CC1E1A100557589 /* Build configuration list for PBXNativeTarget "TSPieViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEA7ABA1CC1E1A100557589 /* Debug */,
+				DDEA7ABB1CC1E1A100557589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDEA7A7E1CC1E1A100557589 /* Project object */;
+}
